@@ -1,6 +1,10 @@
 # pet_adoption
 
-A new Flutter project.
+Projeto Ui Pet Adoption
+
+<h1><img src ="assets/ui/print.png"width="375"
+     height="667">
+</h1>
 
 ## Getting Started
 

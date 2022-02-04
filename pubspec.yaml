@@ -73,6 +73,7 @@ flutter:
    - assets/pets/pet3.png
    - assets/pets/pet4.png
    - assets/pets/pet5.png
+   - assets/ui/print.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
