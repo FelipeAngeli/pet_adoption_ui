@@ -16,4 +16,6 @@ class AppColors {
   static const Color iconMenu = Color(0xffb8b8b8);
   static const Color iconBackground = Color(0xffFF5F50);
   static const Color branco = Color(0xffffffff);
+
+  static const Color iconBackgroundopacity = Color(0x32FF5F50);
 }

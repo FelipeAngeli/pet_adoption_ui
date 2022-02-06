@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:pet_adoption/app/view/new_homepage.dart';
 
+import 'app/view/perfil_page.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: NewHomePage(),
+      home: PerfilPage(),
     );
   }
 }

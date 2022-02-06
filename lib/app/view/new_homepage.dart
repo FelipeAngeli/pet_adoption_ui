@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:pet_adoption/app/widgets/appbar_widgets/app_bar_widgets.dart';
 import 'package:pet_adoption/app/widgets/body_widgets/background_widget.dart';
 import 'package:pet_adoption/app/widgets/body_widgets/box_card_widget.dart';
-
 import 'package:pet_adoption/app/widgets/body_widgets/option_menu.dart';
 import 'package:pet_adoption/core/colors.dart';
 

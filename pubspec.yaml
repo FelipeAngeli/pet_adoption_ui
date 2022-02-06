@@ -67,12 +67,21 @@ flutter:
    - assets/icons/dog.png
    - assets/icons/cat.png
    - assets/icons/bird.png
+   - assets/icons/arrowleft.png
+   - assets/icons/sex.png
+   - assets/icons/paw.png
    - assets/person/avatar.jpg
    - assets/pets/pet1.png
    - assets/pets/pet2.png
    - assets/pets/pet3.png
    - assets/pets/pet4.png
    - assets/pets/pet5.png
+   - assets/pets/perfil.png
+   - assets/pets/perfil1.png
+   - assets/pets/perfil2.png
+   - assets/pets/perfil3.png
+   - assets/pets/perfil4.png
+ 
    - assets/ui/print.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
