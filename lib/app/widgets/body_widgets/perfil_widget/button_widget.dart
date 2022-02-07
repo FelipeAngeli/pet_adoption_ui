@@ -13,15 +13,17 @@ class AdoptButton extends StatelessWidget {
         onPressed: () {},
         style: ElevatedButton.styleFrom(
             primary: AppColors.iconBackground,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.only(topLeft: Radius.circular(35)),
+            shape: const RoundedRectangleBorder(
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(35),
+              ),
             )),
         icon: Image.asset(
           "assets/icons/paw.png",
           width: 18,
           height: 18,
         ),
-        label: Text(
+        label: const Text(
           "ADOPT",
           style: TextStyle(fontSize: 16),
         ),

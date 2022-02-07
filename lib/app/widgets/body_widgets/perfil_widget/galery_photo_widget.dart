@@ -14,7 +14,7 @@ class GaleryPhotoWidget extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 8),
       child: Container(
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+          borderRadius: const BorderRadius.all(Radius.circular(15.0)),
           border: Border.all(width: 2.0, color: AppColors.colorSubTitle),
         ),
         child: ClipRRect(

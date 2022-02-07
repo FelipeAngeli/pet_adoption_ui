@@ -17,33 +17,32 @@ class PerfilPage extends StatelessWidget {
         width: double.infinity,
         child: Column(
           children: [
-            Container(
-              child: HeaderPerfil_widget(
-                name: 'Sparky',
-                raca: 'Golden Retriever',
-                distancia: ' 2.5 Kms away',
-                idade: ' 8 months old',
-              ),
+            const HeaderPerfil_widget(
+              name: 'Sparky',
+              raca: 'Golden Retriever',
+              distancia: ' 2.5 Kms away',
+              idade: ' 8 months old',
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 SizedBox(
                   child: ListView(
-                    padding: EdgeInsets.only(
+                    padding: const EdgeInsets.only(
                       left: 20,
                     ),
+                    // ignore: prefer_const_literals_to_create_immutables
                     children: [
-                      GaleryPhotoWidget(
+                      const GaleryPhotoWidget(
                         galeriaFoto: "assets/pets/perfil1.png",
                       ),
-                      GaleryPhotoWidget(
+                      const GaleryPhotoWidget(
                         galeriaFoto: "assets/pets/perfil2.png",
                       ),
-                      GaleryPhotoWidget(
+                      const GaleryPhotoWidget(
                         galeriaFoto: "assets/pets/perfil3.png",
                       ),
-                      GaleryPhotoWidget(
+                      const GaleryPhotoWidget(
                         galeriaFoto: "assets/pets/perfil4.png",
                       ),
                     ],
@@ -59,10 +58,10 @@ class PerfilPage extends StatelessWidget {
             Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                AboutWidget(),
+                const AboutWidget(),
                 Container(
                   alignment: Alignment.bottomRight,
-                  child: AdoptButton(),
+                  child: const AdoptButton(),
                 ),
               ],
             ),

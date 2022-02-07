@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:pet_adoption/app/widgets/appbar_widgets/app_bar_widgets.dart';
-import 'package:pet_adoption/app/widgets/body_widgets/background_widget.dart';
-import 'package:pet_adoption/app/widgets/body_widgets/box_card_widget.dart';
-import 'package:pet_adoption/app/widgets/body_widgets/option_menu.dart';
+import 'package:pet_adoption/app/widgets/body_widgets/homepage_widget/background_widget.dart';
+import 'package:pet_adoption/app/widgets/body_widgets/homepage_widget/box_card_widget.dart';
+import 'package:pet_adoption/app/widgets/body_widgets/homepage_widget/option_menu.dart';
 import 'package:pet_adoption/core/colors.dart';
 
-class NewHomePage extends StatelessWidget {
-  const NewHomePage({Key? key}) : super(key: key);
+class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

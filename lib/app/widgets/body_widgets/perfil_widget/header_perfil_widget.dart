@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pet_adoption/core/colors.dart';
 
+// ignore: camel_case_types
 class HeaderPerfil_widget extends StatelessWidget {
   final String name;
   final String raca;
@@ -19,7 +20,7 @@ class HeaderPerfil_widget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20),
-      child: Container(
+      child: SizedBox(
         height: 100,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -30,14 +31,14 @@ class HeaderPerfil_widget extends StatelessWidget {
               children: [
                 Text(
                   name,
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontSize: 32,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
                 Text(
                   raca,
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),
@@ -49,12 +50,12 @@ class HeaderPerfil_widget extends StatelessWidget {
                       width: 16,
                       height: 16,
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 5,
                     ),
                     Text(
                       raca,
-                      style: TextStyle(
+                      style: const TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.bold,
                           color: AppColors.colorSubTitle),
@@ -73,12 +74,12 @@ class HeaderPerfil_widget extends StatelessWidget {
                   width: 36,
                   height: 36,
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
                 Text(
                   idade,
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),
